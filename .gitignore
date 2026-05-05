@@ -42,6 +42,9 @@ Front_end/ios/.symlinks/
 Front_end/ios/Flutter/Flutter.framework
 Front_end/ios/Flutter/Flutter.podspec
 Front_end/*.iml
+Front_end/android/app/build/
+Front_end/android/build/
+*.apk
 
 # ── IDE & OS ───────────────────────────────────────────
 .idea/
