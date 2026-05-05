@@ -1,0 +1,53 @@
+# ── ENVIRONMENT & SECRETS ──────────────────────────────
+.env
+.env.*
+*.env
+secrets.json
+google-services.json
+GoogleService-Info.plist
+
+# ── PYTHON / FASTAPI BACKEND ───────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.sqlite3
+*.db
+
+# ── FLUTTER FRONTEND ───────────────────────────────────
+Front_end/.dart_tool/
+Front_end/.flutter-plugins
+Front_end/.flutter-plugins-dependencies
+Front_end/.packages
+Front_end/build/
+Front_end/.pub-cache/
+Front_end/.pub/
+Front_end/pubspec.lock
+Front_end/android/.gradle/
+Front_end/android/local.properties
+Front_end/android/key.properties
+Front_end/ios/Pods/
+Front_end/ios/.symlinks/
+Front_end/ios/Flutter/Flutter.framework
+Front_end/ios/Flutter/Flutter.podspec
+Front_end/*.iml
+
+# ── IDE & OS ───────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
